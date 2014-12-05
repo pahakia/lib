@@ -1,0 +1,4 @@
+com.pahakia.annotation.processor.test.annotation.Region: java.lang.annotation.Target java.lang.annotation.Retention
+com.pahakia.annotation.processor.test.annotation.Sport: java.lang.annotation.Target java.lang.annotation.Retention
+com.pahakia.annotation.processor.test.Soccer: com.pahakia.annotation.processor.test.annotation.Sport
+com.pahakia.annotation.processor.test.Hockey: com.pahakia.annotation.processor.test.annotation.Region com.pahakia.annotation.processor.test.annotation.Sport
