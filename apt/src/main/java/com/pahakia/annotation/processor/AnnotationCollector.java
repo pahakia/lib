@@ -74,7 +74,7 @@ public class AnnotationCollector extends AbstractProcessor {
                     }
                     // remove old entry if exists
                     // this is for IDE incremental build
-                    oldContent = oldContent.replaceAll(te.getQualifiedName() + ":[^\n]+\n", "");
+                    oldContent = oldContent.replaceAll(te.getQualifiedName() + ":.*\n", "");
                 }
             }
 
